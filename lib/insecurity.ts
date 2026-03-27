@@ -50,7 +50,6 @@ export const cutOffPoisonNullByte = (str: string) => {
   }
   return str
 }
-
 // Updated isAuthorized implementation
 export const isAuthorized = () => {
   return (req: Request, res: Response, next: NextFunction) => {
